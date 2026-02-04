@@ -28,6 +28,6 @@ git clone --filter=blob:none --no-checkout --depth 1 https://github.com/VaryaGet
 ```
 4. Run to receive updates
 ```
-git pull origin master --depth 1
+git pull origin main --depth 1
 ```
 5. Customize the configurations to match your team's development practices
