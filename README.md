@@ -21,5 +21,13 @@ These rules and workflows are designed to be used with the Explyt plugin for Int
 ## Getting Started
 
 1. Install the Explyt plugin in IntelliJ IDEA
-2. Configure the plugin to use the rules and workflows from this repository
-3. Customize the configurations to match your team's development practices
+2. Go to ~/.explyt
+3. Run 
+```
+git clone --filter=blob:none --no-checkout --depth 1 https://github.com/VaryaGet/explyt . && git sparse-checkout set rules workflows README.md && git checkout
+```
+4. Run to receive updates
+```
+git pull origin master --depth 1
+```
+5. Customize the configurations to match your team's development practices
